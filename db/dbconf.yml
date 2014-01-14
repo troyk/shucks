@@ -1,0 +1,7 @@
+development:
+  driver: postgres
+  open: user=troy dbname=idoo_dev sslmode=disable
+test:
+  driver: postgres
+  open: user=troy dbname=idoo_test sslmode=disable
+
